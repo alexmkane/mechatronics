@@ -1,5 +1,0 @@
-Integrate several touch, pressure and accelerometer sensors into a fender stratocaster (I already own and am happy to rip it up for the project) to send midi signals to dj/production software I use on my computer as well as control embedded LEDs in the body of the guitar.  
-
-An expanded version of the project would be to integrate a midi-pickup into the guitar/arduino as well for mapping notes as they are played on the guitar either to a softsynth or mapped triggers in the DJ/Production software.
-
-Graphic of the guitar with a possible embedded light design attached.
