@@ -45,6 +45,7 @@ void loop() {
     }
     // Delay a little bit to avoid bouncing
     delay(50);
+    lastButtonState = buttonState;
 
     if (buttonPushCounter == 1) {
       myservo.write(myDegrees[0]);
