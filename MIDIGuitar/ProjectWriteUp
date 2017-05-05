@@ -1,0 +1,25 @@
+Goals of project
+The primary goal of the project was to integrate digital sensors into a guitar so that I could control Ableton music production software from the guitar.  Thus combining two instruments - one analog, one digital.
+
+
+
+How hardware/software achieves those goals
+The instruments are functionally separate until they interact via the software.  The analog guitar signal runs through a separate interface into Ableton and the digital components act as a separate MIDI controller.  I needed at least 3 buttons to record, playback and reset the guitar loop and 3 more buttons for triggering effects and other samples as well as 3 potentiometers for controlling non-binary parameters.
+
+To get the the arduino to communicate with Ableton I had to use an OS app called Hairless MIDI to pull serial information from the usb and converts it into useable information for Ableton.
+
+I then had to create a virtual instrument so Ableton can pull in the information from the Arduino. To create a virtual instrument, if using a Mac: go to Applications folder > Utilities > Audio Midi Setup > Window tab > MIDI window and create a new input and output MIDI port.
+
+Within Ableton the sensors can be mapped to any parameter by switching to MIDI Map Mode
+
+
+
+
+Parts list
+1 Fender Stratocaster
+12 neopixel LEDs
+6 button switches
+3 soft touch potentiometers 
+1 rotary encoder
+1 arduino microprocessor
+1 prototyping shield
